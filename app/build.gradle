@@ -60,4 +60,10 @@ dependencies {
 
     //Interceptor
     implementation("com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2")
+
+
+
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+
+
 }

@@ -1,4 +1,4 @@
-package com.geektech.youtubeapi.base
+package com.geektech.youtubeapi.core.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +9,7 @@ abstract class BaseActivity<VB : ViewBinding, VM : BaseViewModel> : AppCompatAct
     protected lateinit var binding: VB
     protected abstract fun inflateViewBinding(): VB
     protected abstract val viewModel: VM
+    abstract fun isInternet(): Boolean
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,4 +26,5 @@ abstract class BaseActivity<VB : ViewBinding, VM : BaseViewModel> : AppCompatAct
     open fun initListener() {} // Все наши клики
     open fun initViewModel() {} // Все обзерверы нащего viewModel\'a
     open fun isConnection() {} // Проверка на подключение к интернету
+
 }

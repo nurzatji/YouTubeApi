@@ -5,4 +5,10 @@
     <string name="playlist">playlist</string>
     <string name="playlist_name">Playlist Name</string>
     <string name="number_of_videos">Number of videos</string>
+    <string name="name_list">Playlist</string>
+    <string name="list_name">32 video series</string>
+    <string name="emotional_well_being_healing_practices_for_children" />
+    <string name="in_this_series_we_break_down_the_impact_of_displacement_instability_violence_and_trauma_in_children_and_offer_exercises_to_support_children_in_their_healing_journey" />
+    <string name="_32_video_series" />
+    <string name="video_series" />
 </resources>

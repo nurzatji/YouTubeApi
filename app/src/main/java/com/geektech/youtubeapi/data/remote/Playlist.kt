@@ -1,4 +1,4 @@
-package com.geektech.youtubeapi.model
+package com.geektech.youtubeapi.data.remote
 
 data class Playlist(
     val etag: String?,
